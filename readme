@@ -15,8 +15,9 @@ Models/packages to be used.
 - Classic n-grams, NLTK
 - Word2Vec (SKlearn)
 - SpaCy
+- TBA
 
-Tentative plan
+Tentative plan.
 V 2.3 Data cleaning, pre-modeling prep 
   3.3 Modeling
   4.3 Modeling
