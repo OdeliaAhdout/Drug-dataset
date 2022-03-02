@@ -1,0 +1,26 @@
+Readme file for final project - Drug Dataset by Odelia Ahdout
+Sentiment analysis of drug reviews assembled in a dataset from UCI
+
+Research question.
+Predicting the assessment of the drug based on the text review on a binary scale (negative/positive)
+Caveat: target variable (rating) is on a scale from 1 to 10, and is skewed towards positive values (ratings of 9-10 make up of around 40% of all values).
+Therefore, the binary scale (1-6 for negative, 7-10 for positive), might have to be further refined, in order to allow a better balancing of the data.
+
+Methodology.
+Supervised learning, possibly augmented with unsupervised models 
+Features may contain, besides the review itself, other infos: the identity of the drug (i.e. its name, 'drugName'), the type of condition it targets (e.g. acne, depression, 'condition'),
+and possibly other features concerning the review itself (e.g. its length, 'length').
+
+Models/packages to be used.
+- Classic n-grams, NLTK
+- Word2Vec (SKlearn)
+- SpaCy
+
+Tentative plan
+V 2.3 Data cleaning 
+  3.3 Modeling
+  4.3 Modeling
+  7.3 Modeling
+  8 Notebook prep, visualization 
+  9 presentation
+  10.3 ppt
