@@ -17,10 +17,10 @@ Models/packages to be used.
 - SpaCy
 
 Tentative plan
-V 2.3 Data cleaning 
+V 2.3 Data cleaning, pre-modeling prep 
   3.3 Modeling
   4.3 Modeling
   7.3 Modeling
-  8 Notebook prep, visualization 
-  9 presentation
-  10.3 ppt
+  8.3 Notebook prep, visualization 
+  9.3 presentation
+  10.3 presentation
