@@ -23,7 +23,7 @@ Tentative plan.
                     [v]TF-IDF {RanFor}; 
                     tag+POS-filter {RanFor};
                     Bayes model
-                    simple regression on non-text variables to determine their independent predictive force. 
+                    issues-> linear regression on non-text variables to determine their independent predictive force. 
     4.3 Modeling: trying to improve on the modeling of review text. 
     7.3 Modeling: trying to improve on the modeling of review text. 
     8.3 Notebook prep, visualization 
