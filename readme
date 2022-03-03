@@ -21,7 +21,7 @@ Tentative plan.
 [V] 2.3 Data cleaning, pre-modeling prep 
     3.3 Modeling:   [v]B.O.W model on review text {RanFor}; 
                     [v]TF-IDF {RanFor}; 
-                    []tag+POS-filter {RanFor};
+                    [v]tag+POS-filter {RanFor} >> ended up with same list!;
                     [issues] Bayes model
                     [issues] linear regression on non-text variables to determine their independent predictive force. 
     4.3 Modeling: attempting fixing issues with NB and LIN REG; SpaCy? 
