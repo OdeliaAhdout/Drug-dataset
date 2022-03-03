@@ -19,7 +19,11 @@ Models/packages to be used.
 
 Tentative plan.
 [V] 2.3 Data cleaning, pre-modeling prep 
-    3.3 Modeling: [v]B.O.W model on review text; [v]TF-IDF; tag+POS-filter; simple regression on non-text variables to determine their independent predictive force. 
+    3.3 Modeling:   [v]B.O.W model on review text {RanFor}; 
+                    [v]TF-IDF {RanFor}; 
+                    tag+POS-filter {RanFor};
+                    Bayes model
+                    simple regression on non-text variables to determine their independent predictive force. 
     4.3 Modeling: trying to improve on the modeling of review text. 
     7.3 Modeling: trying to improve on the modeling of review text. 
     8.3 Notebook prep, visualization 
