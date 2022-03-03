@@ -3,8 +3,9 @@ Sentiment analysis of drug reviews assembled in a dataset from UCI
 
 Research question.
 Predicting the assessment of the drug based on the text review on a binary scale (negative/positive)
-Caveat: target variable (rating) is on a scale from 1 to 10, and is skewed towards positive values (ratings of 9-10 make up of around 40% of all values).
+Caveat 1: target variable (rating) is on a scale from 1 to 10, and is skewed towards positive values (ratings of 9-10 make up of around 40% of all values).
 Therefore, the binary scale (1-6 for negative, 7-10 for positive), might have to be further refined, in order to allow a better balancing of the data.
+Caveat 2: relatedly, positive comments also tend to recieve more 'useful comment' votes, therefore cleaning less useful comments might further imbalance the data.
 
 Methodology.
 Supervised learning, possibly augmented with unsupervised models 
@@ -15,7 +16,6 @@ Models/packages to be used.
 - Classic n-grams, NLTK
 - Word2Vec (SKlearn)
 - SpaCy
-- TBA
 
 Tentative plan.
 [V] 2.3 Data cleaning, pre-modeling prep 
