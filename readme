@@ -21,11 +21,11 @@ Tentative plan.
 [V] 2.3 Data cleaning, pre-modeling prep 
     3.3 Modeling:   [v]B.O.W model on review text {RanFor}; 
                     [v]TF-IDF {RanFor}; 
-                    tag+POS-filter {RanFor};
-                    Bayes model
-                    issues-> linear regression on non-text variables to determine their independent predictive force. 
-    4.3 Modeling: trying to improve on the modeling of review text. 
-    7.3 Modeling: trying to improve on the modeling of review text. 
+                    []tag+POS-filter {RanFor};
+                    [issues] Bayes model
+                    [issues] linear regression on non-text variables to determine their independent predictive force. 
+    4.3 Modeling: attempting fixing issues with NB and LIN REG; SpaCy? 
+    7.3 Modeling: SpaCy? 
     8.3 Notebook prep, visualization 
     9.3 presentation
     10.3 presentation
