@@ -24,9 +24,9 @@ Tentative plan.
                     [v]tag+POS-filter {RanFor} >> ended up with same list!;
                     [not working] Bayes model
                     [not working] linear regression on non-text variables to determine their independent predictive force. 
-    4.3 Modeling: attempting fixing issues with NB and LIN REG; SpaCy?
-                    Classification instead of reg for non-review variables
-    7.3 Modeling: SpaCy? 
+    4.3 Modeling: [v]attempting fixing issues with NB and LIN REG
+                   -> Classification instead of reg for non-review variables
+    7.3 Modeling:  -> SpaCy for NP/VP phrases 
     8.3 Notebook prep, visualization 
     9.3 presentation
     10.3 presentation
