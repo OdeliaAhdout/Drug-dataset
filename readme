@@ -25,7 +25,7 @@ Tentative plan.
                     [not working] Bayes model
                     [not working] linear regression on non-text variables to determine their independent predictive force. 
     4.3 Modeling: [v]attempting fixing issues with NB and LIN REG
-                   -> Classification instead of reg for non-review variables
+                   -> Classification instead of reg for non-review variables {RF, KNN}
     7.3 Modeling:  -> SpaCy for NP/VP phrases; recommend best drugs for a certain condition.  
     8.3 Notebook prep, visualization 
     9.3 presentation
