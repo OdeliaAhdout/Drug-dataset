@@ -28,7 +28,8 @@ Tentative plan.
                    -> Classification instead of reg for non-review variables {[v]RF, KNN}
                    [v]run RanFor model on downsample >> less false positives, more false negatives. 
                    [v]TF-IDF on downsample {RanFor} >> tried with uni+bigrams. 
-                   ***Best model: full sample (imbalaned); TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=50.***
+                   *** Best model: full sample (imbalaned); TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=50.***
+                   *** Best model for case-study (less false positives): downsample; TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=50.***
     7.3 Modeling:  -> SpaCy for NP/VP phrases?; recommend best drugs for a certain condition (tableau).  
     8.3 Notebook prep, visualization: tableau -- fix dataset to include reviews and clean condition 
     9.3 presentation
