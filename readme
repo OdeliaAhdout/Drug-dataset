@@ -25,7 +25,7 @@ Tentative plan.
                     [not working] Bayes model
                     [not working] linear regression on non-text variables to determine their independent predictive force. 
     4.3 Modeling: [v]attempting fixing issues with NB and LIN REG
-                   -> Classification instead of reg for non-review variables {[v]RF, KNN}
+                   Classification instead of reg for non-review variables {[v]RF, KNN}
                    [v]run RanFor model on downsample >> less false positives, more false negatives. 
                    [v]TF-IDF on downsample {RanFor} >> tried with uni+bigrams. 
                    *** Best model score overall: full sample (imbalaned); TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=60.***
