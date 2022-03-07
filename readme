@@ -32,12 +32,13 @@ Tentative plan.
                    [v]run RanFor model on downsample >> less false positives, more false negatives. 
                    [v]TF-IDF on downsample {RanFor} >> tried with uni+bigrams. 
                    ---
-                   *** Best model score overall: full sample (imbalaned); TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=60.***
-                   *** Best model for case-study (less false positives): downsample; TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=50.***
+                   Best model score overall: full sample (imbalaned); TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=60.
+                   >>> Best model for case-study (less false positives): downsample; TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=50.
                    ---
                    [v]visualization: tableau -- reproduce graphs with dataset including reviews and clean condition 
                    
     7.3 Modeling:  -> SpaCy for NP/VP phrases?
+                   [] Problem solving: get add-ins for ppt to present tableau stuff
     
     8.3 Notebook prep 
     9.3 presentation
