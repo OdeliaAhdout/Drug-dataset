@@ -37,9 +37,12 @@ Tentative plan.
                    ---
                    [v]visualization: tableau -- reproduce graphs with dataset including reviews and clean condition 
                    
-    7.3 Modeling:  [] ROC curve
+    7.3 Modeling:  [v]ROC curve
                    [] Problem solving: get add-ins for ppt to present tableau stuff
-                   [] read kaggles [2]; read about TfidfVectorizer; read research paper
+                   [] read kaggles
+                   [] read about TfidfVectorizer
+                   [] read research paper
+                   [] a way to visualize word vectors?
     
     8.3 presentation 
     9.3 presentation, notebook cleaning
