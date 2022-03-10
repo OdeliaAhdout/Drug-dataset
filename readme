@@ -41,9 +41,13 @@ Tentative plan.
                    [v]read kaggles
                    
     8.3 presentation / discovered undetected duplication of reviews... clearing up the mess, updating notebook and presentation.
-        [] read about TfidfVectorizer
         [v] read research paper
-        [] a way to visualize word vectors?
+        
 
     9.3 Improve model due to duplicates... correct presentation, tableau figures etc.
-    10.3 finish up and practice presentation, notebook cleaning
+    
+    10.3    [] finish up and time presentation, 
+            [] notebook cleaning
+            [] a way to visualize word vectors: book p 18
+            [v] lin reg 
+            
