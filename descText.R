@@ -64,6 +64,35 @@ comparison.cloud(tdm,colors=gCol1,scale=c(3,.5),random.order=FALSE,title.size=1.
 dev.off()
 
 
+emo.docs = rep("", nemo)
+for(i in 1:nemo){
+   tmp = sentO$drug[sentO$cat == emos[i]]
+   emo.docs[i] = paste(tmp, collapse=" ")
+}
+comm_corpus = Corpus(VectorSource(emo.docs))
+tdm = TermDocumentMatrix(comm_corpus)
+tdm = as.matrix(tdm)
+colnames(tdm) = emos
+jpeg("fig/compCloudSentDrug.jpg")
+comparison.cloud(tdm,colors=gCol1,scale=c(3,.5),random.order=FALSE,title.size=1.5)
+dev.off()
+
+emo.docs = rep("", nemo)
+for(i in 1:nemo){
+   tmp = sentO$condition[sentO$cat == emos[i]]
+   emo.docs[i] = paste(tmp, collapse=" ")
+}
+comm_corpus = Corpus(VectorSource(emo.docs))
+tdm = TermDocumentMatrix(comm_corpus)
+tdm = as.matrix(tdm)
+colnames(tdm) = emos
+jpeg("fig/compCloudSentCond.jpg")
+comparison.cloud(tdm,colors=gCol1,scale=c(3,.5),random.order=FALSE,title.size=1.5)
+dev.off()
+
+
+
+
 t <- sort(table(sentO$condition),decreasing=TRUE)[1:10]
 sent1 <- sentO[sentO$condition %in% names(t),]
 emos = levels(factor(sent1$condition))
@@ -77,25 +106,25 @@ comm_corpus = Corpus(VectorSource(emo.docs))
 tdm = TermDocumentMatrix(comm_corpus)
 tdm = as.matrix(tdm)
 colnames(tdm) = emos
-jpeg("fig/compCloudPol.jpg")
+jpeg("fig/compCloudCondition.jpg")
 comparison.cloud(tdm,colors=gCol1,scale=c(3,.5),random.order=FALSE,title.size=1.5)
 dev.off()
 
  
 t <- sort(table(sentO$drug),decreasing=TRUE)[1:10]
 sent1 <- sentO[sentO$drug %in% names(t),]
-emos = levels(factor(sent1$condition))
+emos = levels(factor(sent1$drug))
 nemo = length(emos)
 emo.docs = rep("", nemo)
 for(i in 1:nemo){
-   tmp = fs$review[sent1$condition == emos[i]]
+   tmp = fs$review[sent1$drug == emos[i]]
    emo.docs[i] = paste(tmp, collapse=" ")
 }
 comm_corpus = Corpus(VectorSource(emo.docs))
 tdm = TermDocumentMatrix(comm_corpus)
 tdm = as.matrix(tdm)
 colnames(tdm) = emos
-jpeg("fig/compCloudPol.jpg")
+jpeg("fig/compCloudDrug.jpg")
 comparison.cloud(tdm,colors=gCol1,scale=c(3,.5),random.order=FALSE,title.size=1.5)
 dev.off()
 
