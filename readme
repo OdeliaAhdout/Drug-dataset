@@ -46,8 +46,10 @@ Tentative plan.
 
     9.3 Improve model due to duplicates... correct presentation, tableau figures etc.
     
-    10.3    [] finish up and time presentation, 
-            [] notebook cleaning
-            [] a way to visualize word vectors: book p 18
+    10.3    [v] finish up and time presentation
+            [v] notebook cleaning
+            [v] a way to visualize word vectors: python ones less informative (book p 18), decided to do them on R with assistance, based on existing word sentiment lists
             [v] lin reg 
             
+    11.3 PPT DAY!!! 
+ 
