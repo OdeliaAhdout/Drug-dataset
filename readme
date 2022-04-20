@@ -11,45 +11,4 @@ Methodology.
 Supervised learning, possibly augmented with unsupervised models 
 Features may contain, besides the review itself, other infos: the identity of the drug (i.e. its name, 'drugName'), the type of condition it targets (e.g. acne, depression, 'condition'),
 and possibly other features concerning the review itself (e.g. its length, 'length').
-
-Models/packages to be used.
-- Classic n-grams, NLTK
-- TfidfVectorizer (SKlearn)
-- SpaCy?
-
-Tentative plan.
-[V] 2.3 Data cleaning, pre-modeling prep 
-
-    3.3 Modeling:   [v]B.O.W model on review text {RanFor}; 
-                    [v]TF-IDF {RanFor}; 
-                    [v]tag+POS-filter {RanFor} >> ended up with same list!;
-                    [not working] Bayes model
-                    [not working] linear regression on non-text variables to determine their independent predictive force. 
-                    
-    4.3 Modeling:  [v]attempting fixing issues with NB and LIN REG
-                   [v]Classification instead of reg for non-review variables, full sample {RF, KNN -- issues}
-                   -- > Classification instead of reg for non-review variables, DOWNsample {RF}
-                   [v]run RanFor model on downsample >> less false positives, more false negatives. 
-                   [v]TF-IDF on downsample {RanFor} >> tried with uni+bigrams. 
-                   ---
-                   Best model score overall: full sample (imbalaned); TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=60.
-                   >>> Best model for case-study (less false positives): downsample; TF-IDF: 1,2 + RanFor: max_depth = 200, num_estimators=50.
-                   ---
-                   [v]visualization: tableau -- reproduce graphs with dataset including reviews and clean condition 
-                   
-    7.3 Modeling:  [v]ROC curve
-                   [v]read kaggles
-                   
-    8.3 presentation / discovered undetected duplication of reviews... clearing up the mess, updating notebook and presentation.
-        [v] read research paper
-        
-
-    9.3 Improve model due to duplicates... correct presentation, tableau figures etc.
-    
-    10.3    [v] finish up and time presentation
-            [v] notebook cleaning
-            [v] a way to visualize word vectors: python ones less informative (book p 18), decided to do them on R with assistance, based on existing word sentiment lists
-            [v] lin reg 
-            
-    11.3 PPT DAY!!! 
  
