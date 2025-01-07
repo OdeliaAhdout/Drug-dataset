@@ -11,4 +11,4 @@ Features contain, besides the review itself, other infos: the identity of the dr
 and possibly other features concerning the review itself (e.g. its length, 'length').
 
 Methodology.
-distilbert-base-uncased, for less computational demans
+distilbert-base-uncased, for less computational demands
